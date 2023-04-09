@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_item"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <TextView
+        android:id="@+id/tablecat"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:text="T0"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tablepro"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="Book"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tableamount"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="100"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/tableedit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:contentDescription="Edit"
+        android:textAlignment="viewStart"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/tabledel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:contentDescription="Delete"
+        android:textAlignment="viewStart"
+        app:srcCompat="@drawable/delete" />
+
+
+</LinearLayout>
